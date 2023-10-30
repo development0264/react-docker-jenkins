@@ -43,11 +43,7 @@
 
         stage('Deploy to Production') {
             when {
-                branch 'main' // Adjust this to the branch you want to deploy from
-            }
-            steps {
-                // Deploy your Dockerized Vite (React) application to your production server.
-                // This step depends on your specific deployment environment.
+                branch 'master' // Adjust this to the branch you want to deploy from
             }
         }
     }
