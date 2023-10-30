@@ -40,11 +40,5 @@
                 }
             }
         }
-
-        stage('Deploy to Production') {
-            when {
-                branch 'master' // Adjust this to the branch you want to deploy from
-            }
-        }
     }
 }
